@@ -1,0 +1,43 @@
+Aufgabe 1
+
+- Leg einen neuen Request an.
+- Nenne ihn “Star Wars Planeten”.
+- Die URL lautet https://swapi.dev/api/planets
+- Sende den Request ab und schau dir die Antwort an
+    - Wie lange hat der Aufruf gedauert?
+        --> 170 ms
+    - Wieviele Planeten bekommst du als Antwort?
+        --> 10
+    - Wie lautet der Name des vorletzten Planeten?
+        --> Coruscant
+    - Wie ist das Klima (climate) des Planten Hoth?
+        --> frozen
+- Versuche selbst, die 3. Seite (page=3) aufzurufen.
+    - Wie lautet der Name des zweiten Planeten auf dieser Seite?
+        --> Corellia
+
+
+    Aufgabe 2
+
+- Leg einen neuen Request an.
+- Nenne ihn “Star Wars People”.
+- Die URL lautet https://swapi.dev/api/people
+- Sende den Request ab und schau dir die Antwort an
+    - Wer ist die erste Person in der Antwort?
+        --> Luke Skywalker
+    - Rufe sein Raumschiff ab - wie heißt es?
+        --> X-wing, Imperial shuttle
+    - Wie lautet die Haarfarbe und die Augenfarbe der letzten Person aus der Antwort?
+        --> hair_color:auburn, white; eye_color:blue-gray
+- Rufe die Seite 3 ab.
+    - Wer steht dort ganz oben?
+        --> Boba Fett
+    - In welchen Filmen kommt die Person vor?
+        --> The Empire Strikes Back, Return of the Jedi, Attack of the Clones
+- Suche nach Prinzessin Leia.
+    --> https://swapi.dev/api/people?search=Leia
+Wie man einen Suchtext im Request mitgeben kann, findest du in der [Dokumentation](https://swapi.dev/documentation)
+    - Wie groß ist sie?
+        --> 150
+    - Was ist ihr Heimatplanet?
+        --> Alderaan

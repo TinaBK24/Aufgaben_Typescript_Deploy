@@ -1,0 +1,18 @@
+body {
+    padding: 50px 2rem;
+    text-align: center;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    width: 250px;
+}
+
+img {
+    width: 100%;
+}
